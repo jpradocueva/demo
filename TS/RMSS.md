@@ -361,7 +361,7 @@ McNetSKey = aes128_encrypt(McKey, 0x02 | McAddr | pad16)
 The multicast key derivation scheme is summarized in the following diagram.
 
 <figure class="text-center">
-      <img src="images/multicast_key_derivation _scheme.svg" alt="The multicast key derivation scheme">
+      <img src="images/multicast_key_derivation_scheme.svg" alt="The multicast key derivation scheme">
       <figcaption>The multicast key derivation scheme</figcaption>
 </figure>
 
