@@ -46,7 +46,7 @@ then this group can only have McGroupID=0.
 
 The identifier of the multicast control package is 2. The version of this package is version 1.
 
-The following messages are sent to each end-device individually using Unicast downlink on a port specifically used for the multicast package. The default port value is 200. These messages MUST NOT be sent using multicast. If these messages are received on a multicast address the end-device MUST drop them silently.
+The following messages are sent to each end-device individually using Unicast downlink on a port specifically used for the multicast package. It is RECOMMNEDED that a default port value of 200 be used to promote interoperability, though implementations MAY use a value from those not assigned by the Alliance (see [TS008] FPort Assignments). These messages MUST NOT be sent using multicast. If these messages are received on a multicast address the end-device MUST drop them silently.
 
 
 All unicast control messages use the same format:
@@ -856,6 +856,7 @@ If no errors are present, the TimeToStart field encodes the number of seconds fr
 
 [LoRaWAN 1.1]: LoRaWANTM 1.1 Specification, LoRa Alliance, October 11, 2017
 
+[TS008]: LoRaWANTM LoRa Alliance Assigned Number Registry v0.0.4, May 28, 2019
 ## NOTICE OF USE AND DISCLOSURE
 
 Copyright © LoRa Alliance, Inc. (2018). All Rights Reserved.
