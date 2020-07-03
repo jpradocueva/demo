@@ -206,14 +206,14 @@ Where:
     <caption>McGroupStatusReq CmdMask field</caption>
     <thead>
 	<tr>
-	<td><strong>CmdMask Fields</strong></td>
-	<td>RFU</td>
+	  <td><strong>CmdMask Fields</strong></td>
+	  <td>RFU</td>
 	 <td>RegGroupMask</td>
 	</tr>
 	<tr>
-	<td><strong>Size (bits)</strong></td>
-	<td>4bits</td>
-	<td>4 bits</td>
+	  <td><strong>Size (bits)</strong></td>
+	  <td>4bits</td>
+	  <td>4 bits</td>
 	</tr>
     </tbody>
 </table>
