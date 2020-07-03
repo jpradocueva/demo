@@ -164,20 +164,18 @@ The end-device answers with a **_PackageVersionAns_** command with the following
 
 <table>
     <caption>PackageVersionAns</caption>
-    <thead>
+    <tbody>	
         <tr>
-            <th>Field</th>
-            <th>Size(bytes)</th>
+            <td>Field</td>
+	    <td>PackageIdentifier</td>	
+	    <td>PackageVersion</td>
         </tr>
         <tr>
-            <td>PackageIdentifier</td>
+            <td>Size(bytes)</td>          
             <td>1</td>
+	    <td>1</td>
         </tr>
-	<tr>
-            <td>PackageVersion</td>
-            <td>1</td>
-        </tr>
-    </tbody>
+     </tbody>
 </table>
 
 *PackageIdentifier uniquely* identifies the package. For the “multicast control package” this identifier is 2.
