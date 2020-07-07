@@ -44,7 +44,7 @@ then this group can only have McGroupID=0.
 ```
 ## Multicast Control Message Package
 
-The identifier of the multicast control package is 2. The version of this package is version 1.
+The identifier of the multicast control package is 5. The version of this package is version 1.
 
 The following messages are sent to each end-device individually using Unicast downlink on a port specifically used for the multicast package. It is RECOMMNEDED that a default port value of 200 be used to promote interoperability, though implementations MAY use a value from those not assigned by the Alliance (see [TS008] FPort Assignments). These messages MUST NOT be sent using multicast. If these messages are received on a multicast address the end-device MUST drop them silently.
 
